@@ -40,7 +40,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.except("feet").each do |x|
+  users.reject{|y| y == feet}.each do |x|
     x << "s"
   end
 end
