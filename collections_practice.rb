@@ -40,6 +40,7 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array[0] << "s"
   array.each do |x|
     x <<"s"
   end
