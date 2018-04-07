@@ -24,5 +24,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  
+  array.step(2) do |x| 
+    str[n] = str[n].upcase }
   
