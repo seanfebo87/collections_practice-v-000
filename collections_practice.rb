@@ -40,9 +40,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0] << "s"
-  array[2...-1].each do |x|
-    x <<"s"
+  array.except[1].each do |x|
+    x << "s"
   end
 end
   
