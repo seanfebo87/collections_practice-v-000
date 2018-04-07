@@ -25,5 +25,5 @@ end
 
 def kesha_maker(array)
   (0...array.length).step(2) do |x| 
-    str[n] = str[n].upcase }
+    array[x] = $ 
   
