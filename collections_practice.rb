@@ -43,6 +43,7 @@ def add_s(array)
   array.each do |x|
     if array[1] != x
     x << "s"
+    end
   end
 end
   
